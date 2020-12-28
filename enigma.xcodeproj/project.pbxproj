@@ -7,62 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BEF4B8725946B4000AAD4C2 /* enigmaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEF4B8625946B4000AAD4C2 /* enigmaApp.swift */; };
-		1BEF4B8925946B4000AAD4C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEF4B8825946B4000AAD4C2 /* ContentView.swift */; };
-		1BEF4B8B25946B4300AAD4C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEF4B8A25946B4300AAD4C2 /* Assets.xcassets */; };
-		1BEF4B8E25946B4300AAD4C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEF4B8D25946B4300AAD4C2 /* Preview Assets.xcassets */; };
-		1BEF4B9925946B4400AAD4C2 /* enigmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEF4B9825946B4400AAD4C2 /* enigmaTests.swift */; };
-		1BEF4BA425946B4400AAD4C2 /* enigmaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEF4BA325946B4400AAD4C2 /* enigmaUITests.swift */; };
+		1B07117A2599C9410009904E /* enigmaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0711792599C9410009904E /* enigmaApp.swift */; };
+		1B07117C2599C9410009904E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B07117B2599C9410009904E /* ContentView.swift */; };
+		1B07117E2599C9440009904E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B07117D2599C9440009904E /* Assets.xcassets */; };
+		1B0711812599C9440009904E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0711802599C9440009904E /* Preview Assets.xcassets */; };
+		1B07118C2599C9440009904E /* enigmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B07118B2599C9440009904E /* enigmaTests.swift */; };
+		1B0711972599C9440009904E /* enigmaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0711962599C9440009904E /* enigmaUITests.swift */; };
+		1BB7F4DA2599CE8C00E54FD5 /* RotorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7F4D92599CE8C00E54FD5 /* RotorClass.swift */; };
+		1BB7F4DB2599CE8C00E54FD5 /* RotorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7F4D92599CE8C00E54FD5 /* RotorClass.swift */; };
+		1BB7F4DC2599CE8C00E54FD5 /* RotorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7F4D92599CE8C00E54FD5 /* RotorClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1BEF4B9525946B4400AAD4C2 /* PBXContainerItemProxy */ = {
+		1B0711882599C9440009904E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1BEF4B7B25946B4000AAD4C2 /* Project object */;
+			containerPortal = 1B07116E2599C9410009904E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1BEF4B8225946B4000AAD4C2;
+			remoteGlobalIDString = 1B0711752599C9410009904E;
 			remoteInfo = enigma;
 		};
-		1BEF4BA025946B4400AAD4C2 /* PBXContainerItemProxy */ = {
+		1B0711932599C9440009904E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1BEF4B7B25946B4000AAD4C2 /* Project object */;
+			containerPortal = 1B07116E2599C9410009904E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1BEF4B8225946B4000AAD4C2;
+			remoteGlobalIDString = 1B0711752599C9410009904E;
 			remoteInfo = enigma;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1BEF4B8325946B4000AAD4C2 /* enigma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = enigma.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BEF4B8625946B4000AAD4C2 /* enigmaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enigmaApp.swift; sourceTree = "<group>"; };
-		1BEF4B8825946B4000AAD4C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1BEF4B8A25946B4300AAD4C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1BEF4B8D25946B4300AAD4C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1BEF4B8F25946B4300AAD4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BEF4B9425946B4400AAD4C2 /* enigmaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = enigmaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BEF4B9825946B4400AAD4C2 /* enigmaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enigmaTests.swift; sourceTree = "<group>"; };
-		1BEF4B9A25946B4400AAD4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BEF4B9F25946B4400AAD4C2 /* enigmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = enigmaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BEF4BA325946B4400AAD4C2 /* enigmaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enigmaUITests.swift; sourceTree = "<group>"; };
-		1BEF4BA525946B4400AAD4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B0711762599C9410009904E /* enigma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = enigma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0711792599C9410009904E /* enigmaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enigmaApp.swift; sourceTree = "<group>"; };
+		1B07117B2599C9410009904E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B07117D2599C9440009904E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B0711802599C9440009904E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B0711822599C9440009904E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B0711872599C9440009904E /* enigmaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = enigmaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B07118B2599C9440009904E /* enigmaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enigmaTests.swift; sourceTree = "<group>"; };
+		1B07118D2599C9440009904E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B0711922599C9440009904E /* enigmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = enigmaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0711962599C9440009904E /* enigmaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enigmaUITests.swift; sourceTree = "<group>"; };
+		1B0711982599C9440009904E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BB7F4D92599CE8C00E54FD5 /* RotorClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotorClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1BEF4B8025946B4000AAD4C2 /* Frameworks */ = {
+		1B0711732599C9410009904E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1BEF4B9125946B4400AAD4C2 /* Frameworks */ = {
+		1B0711842599C9440009904E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1BEF4B9C25946B4400AAD4C2 /* Frameworks */ = {
+		1B07118F2599C9440009904E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,60 +76,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1BEF4B7A25946B4000AAD4C2 = {
+		1B07116D2599C9410009904E = {
 			isa = PBXGroup;
 			children = (
-				1BEF4B8525946B4000AAD4C2 /* enigma */,
-				1BEF4B9725946B4400AAD4C2 /* enigmaTests */,
-				1BEF4BA225946B4400AAD4C2 /* enigmaUITests */,
-				1BEF4B8425946B4000AAD4C2 /* Products */,
+				1B0711782599C9410009904E /* enigma */,
+				1B07118A2599C9440009904E /* enigmaTests */,
+				1B0711952599C9440009904E /* enigmaUITests */,
+				1B0711772599C9410009904E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1BEF4B8425946B4000AAD4C2 /* Products */ = {
+		1B0711772599C9410009904E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BEF4B8325946B4000AAD4C2 /* enigma.app */,
-				1BEF4B9425946B4400AAD4C2 /* enigmaTests.xctest */,
-				1BEF4B9F25946B4400AAD4C2 /* enigmaUITests.xctest */,
+				1B0711762599C9410009904E /* enigma.app */,
+				1B0711872599C9440009904E /* enigmaTests.xctest */,
+				1B0711922599C9440009904E /* enigmaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1BEF4B8525946B4000AAD4C2 /* enigma */ = {
+		1B0711782599C9410009904E /* enigma */ = {
 			isa = PBXGroup;
 			children = (
-				1BEF4B8625946B4000AAD4C2 /* enigmaApp.swift */,
-				1BEF4B8825946B4000AAD4C2 /* ContentView.swift */,
-				1BEF4B8A25946B4300AAD4C2 /* Assets.xcassets */,
-				1BEF4B8F25946B4300AAD4C2 /* Info.plist */,
-				1BEF4B8C25946B4300AAD4C2 /* Preview Content */,
+				1B0711792599C9410009904E /* enigmaApp.swift */,
+				1B07117B2599C9410009904E /* ContentView.swift */,
+				1B07117D2599C9440009904E /* Assets.xcassets */,
+				1B0711822599C9440009904E /* Info.plist */,
+				1B07117F2599C9440009904E /* Preview Content */,
+				1BB7F4D92599CE8C00E54FD5 /* RotorClass.swift */,
 			);
 			path = enigma;
 			sourceTree = "<group>";
 		};
-		1BEF4B8C25946B4300AAD4C2 /* Preview Content */ = {
+		1B07117F2599C9440009904E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1BEF4B8D25946B4300AAD4C2 /* Preview Assets.xcassets */,
+				1B0711802599C9440009904E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1BEF4B9725946B4400AAD4C2 /* enigmaTests */ = {
+		1B07118A2599C9440009904E /* enigmaTests */ = {
 			isa = PBXGroup;
 			children = (
-				1BEF4B9825946B4400AAD4C2 /* enigmaTests.swift */,
-				1BEF4B9A25946B4400AAD4C2 /* Info.plist */,
+				1B07118B2599C9440009904E /* enigmaTests.swift */,
+				1B07118D2599C9440009904E /* Info.plist */,
 			);
 			path = enigmaTests;
 			sourceTree = "<group>";
 		};
-		1BEF4BA225946B4400AAD4C2 /* enigmaUITests */ = {
+		1B0711952599C9440009904E /* enigmaUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1BEF4BA325946B4400AAD4C2 /* enigmaUITests.swift */,
-				1BEF4BA525946B4400AAD4C2 /* Info.plist */,
+				1B0711962599C9440009904E /* enigmaUITests.swift */,
+				1B0711982599C9440009904E /* Info.plist */,
 			);
 			path = enigmaUITests;
 			sourceTree = "<group>";
@@ -133,13 +138,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1BEF4B8225946B4000AAD4C2 /* enigma */ = {
+		1B0711752599C9410009904E /* enigma */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BEF4BA825946B4400AAD4C2 /* Build configuration list for PBXNativeTarget "enigma" */;
+			buildConfigurationList = 1B07119B2599C9440009904E /* Build configuration list for PBXNativeTarget "enigma" */;
 			buildPhases = (
-				1BEF4B7F25946B4000AAD4C2 /* Sources */,
-				1BEF4B8025946B4000AAD4C2 /* Frameworks */,
-				1BEF4B8125946B4000AAD4C2 /* Resources */,
+				1B0711722599C9410009904E /* Sources */,
+				1B0711732599C9410009904E /* Frameworks */,
+				1B0711742599C9410009904E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -147,68 +152,68 @@
 			);
 			name = enigma;
 			productName = enigma;
-			productReference = 1BEF4B8325946B4000AAD4C2 /* enigma.app */;
+			productReference = 1B0711762599C9410009904E /* enigma.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1BEF4B9325946B4400AAD4C2 /* enigmaTests */ = {
+		1B0711862599C9440009904E /* enigmaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BEF4BAB25946B4400AAD4C2 /* Build configuration list for PBXNativeTarget "enigmaTests" */;
+			buildConfigurationList = 1B07119E2599C9440009904E /* Build configuration list for PBXNativeTarget "enigmaTests" */;
 			buildPhases = (
-				1BEF4B9025946B4400AAD4C2 /* Sources */,
-				1BEF4B9125946B4400AAD4C2 /* Frameworks */,
-				1BEF4B9225946B4400AAD4C2 /* Resources */,
+				1B0711832599C9440009904E /* Sources */,
+				1B0711842599C9440009904E /* Frameworks */,
+				1B0711852599C9440009904E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1BEF4B9625946B4400AAD4C2 /* PBXTargetDependency */,
+				1B0711892599C9440009904E /* PBXTargetDependency */,
 			);
 			name = enigmaTests;
 			productName = enigmaTests;
-			productReference = 1BEF4B9425946B4400AAD4C2 /* enigmaTests.xctest */;
+			productReference = 1B0711872599C9440009904E /* enigmaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1BEF4B9E25946B4400AAD4C2 /* enigmaUITests */ = {
+		1B0711912599C9440009904E /* enigmaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BEF4BAE25946B4400AAD4C2 /* Build configuration list for PBXNativeTarget "enigmaUITests" */;
+			buildConfigurationList = 1B0711A12599C9440009904E /* Build configuration list for PBXNativeTarget "enigmaUITests" */;
 			buildPhases = (
-				1BEF4B9B25946B4400AAD4C2 /* Sources */,
-				1BEF4B9C25946B4400AAD4C2 /* Frameworks */,
-				1BEF4B9D25946B4400AAD4C2 /* Resources */,
+				1B07118E2599C9440009904E /* Sources */,
+				1B07118F2599C9440009904E /* Frameworks */,
+				1B0711902599C9440009904E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1BEF4BA125946B4400AAD4C2 /* PBXTargetDependency */,
+				1B0711942599C9440009904E /* PBXTargetDependency */,
 			);
 			name = enigmaUITests;
 			productName = enigmaUITests;
-			productReference = 1BEF4B9F25946B4400AAD4C2 /* enigmaUITests.xctest */;
+			productReference = 1B0711922599C9440009904E /* enigmaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1BEF4B7B25946B4000AAD4C2 /* Project object */ = {
+		1B07116E2599C9410009904E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					1BEF4B8225946B4000AAD4C2 = {
+					1B0711752599C9410009904E = {
 						CreatedOnToolsVersion = 12.3;
 					};
-					1BEF4B9325946B4400AAD4C2 = {
+					1B0711862599C9440009904E = {
 						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 1BEF4B8225946B4000AAD4C2;
+						TestTargetID = 1B0711752599C9410009904E;
 					};
-					1BEF4B9E25946B4400AAD4C2 = {
+					1B0711912599C9440009904E = {
 						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 1BEF4B8225946B4000AAD4C2;
+						TestTargetID = 1B0711752599C9410009904E;
 					};
 				};
 			};
-			buildConfigurationList = 1BEF4B7E25946B4000AAD4C2 /* Build configuration list for PBXProject "enigma" */;
+			buildConfigurationList = 1B0711712599C9410009904E /* Build configuration list for PBXProject "enigma" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +221,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 1BEF4B7A25946B4000AAD4C2;
-			productRefGroup = 1BEF4B8425946B4000AAD4C2 /* Products */;
+			mainGroup = 1B07116D2599C9410009904E;
+			productRefGroup = 1B0711772599C9410009904E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BEF4B8225946B4000AAD4C2 /* enigma */,
-				1BEF4B9325946B4400AAD4C2 /* enigmaTests */,
-				1BEF4B9E25946B4400AAD4C2 /* enigmaUITests */,
+				1B0711752599C9410009904E /* enigma */,
+				1B0711862599C9440009904E /* enigmaTests */,
+				1B0711912599C9440009904E /* enigmaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1BEF4B8125946B4000AAD4C2 /* Resources */ = {
+		1B0711742599C9410009904E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BEF4B8E25946B4300AAD4C2 /* Preview Assets.xcassets in Resources */,
-				1BEF4B8B25946B4300AAD4C2 /* Assets.xcassets in Resources */,
+				1B0711812599C9440009904E /* Preview Assets.xcassets in Resources */,
+				1B07117E2599C9440009904E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1BEF4B9225946B4400AAD4C2 /* Resources */ = {
+		1B0711852599C9440009904E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1BEF4B9D25946B4400AAD4C2 /* Resources */ = {
+		1B0711902599C9440009904E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,48 +260,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1BEF4B7F25946B4000AAD4C2 /* Sources */ = {
+		1B0711722599C9410009904E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BEF4B8925946B4000AAD4C2 /* ContentView.swift in Sources */,
-				1BEF4B8725946B4000AAD4C2 /* enigmaApp.swift in Sources */,
+				1BB7F4DA2599CE8C00E54FD5 /* RotorClass.swift in Sources */,
+				1B07117C2599C9410009904E /* ContentView.swift in Sources */,
+				1B07117A2599C9410009904E /* enigmaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1BEF4B9025946B4400AAD4C2 /* Sources */ = {
+		1B0711832599C9440009904E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BEF4B9925946B4400AAD4C2 /* enigmaTests.swift in Sources */,
+				1BB7F4DB2599CE8C00E54FD5 /* RotorClass.swift in Sources */,
+				1B07118C2599C9440009904E /* enigmaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1BEF4B9B25946B4400AAD4C2 /* Sources */ = {
+		1B07118E2599C9440009904E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BEF4BA425946B4400AAD4C2 /* enigmaUITests.swift in Sources */,
+				1BB7F4DC2599CE8C00E54FD5 /* RotorClass.swift in Sources */,
+				1B0711972599C9440009904E /* enigmaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1BEF4B9625946B4400AAD4C2 /* PBXTargetDependency */ = {
+		1B0711892599C9440009904E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1BEF4B8225946B4000AAD4C2 /* enigma */;
-			targetProxy = 1BEF4B9525946B4400AAD4C2 /* PBXContainerItemProxy */;
+			target = 1B0711752599C9410009904E /* enigma */;
+			targetProxy = 1B0711882599C9440009904E /* PBXContainerItemProxy */;
 		};
-		1BEF4BA125946B4400AAD4C2 /* PBXTargetDependency */ = {
+		1B0711942599C9440009904E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1BEF4B8225946B4000AAD4C2 /* enigma */;
-			targetProxy = 1BEF4BA025946B4400AAD4C2 /* PBXContainerItemProxy */;
+			target = 1B0711752599C9410009904E /* enigma */;
+			targetProxy = 1B0711932599C9440009904E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1BEF4BA625946B4400AAD4C2 /* Debug */ = {
+		1B0711992599C9440009904E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +365,7 @@
 			};
 			name = Debug;
 		};
-		1BEF4BA725946B4400AAD4C2 /* Release */ = {
+		1B07119A2599C9440009904E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,13 +420,14 @@
 			};
 			name = Release;
 		};
-		1BEF4BA925946B4400AAD4C2 /* Debug */ = {
+		1B07119C2599C9440009904E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"enigma/Preview Content\"";
+				DEVELOPMENT_TEAM = DLVMN3ZGJS;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = enigma/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -433,13 +442,14 @@
 			};
 			name = Debug;
 		};
-		1BEF4BAA25946B4400AAD4C2 /* Release */ = {
+		1B07119D2599C9440009904E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"enigma/Preview Content\"";
+				DEVELOPMENT_TEAM = DLVMN3ZGJS;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = enigma/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -454,12 +464,13 @@
 			};
 			name = Release;
 		};
-		1BEF4BAC25946B4400AAD4C2 /* Debug */ = {
+		1B07119F2599C9440009904E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLVMN3ZGJS;
 				INFOPLIST_FILE = enigmaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,12 +486,13 @@
 			};
 			name = Debug;
 		};
-		1BEF4BAD25946B4400AAD4C2 /* Release */ = {
+		1B0711A02599C9440009904E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLVMN3ZGJS;
 				INFOPLIST_FILE = enigmaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -496,11 +508,12 @@
 			};
 			name = Release;
 		};
-		1BEF4BAF25946B4400AAD4C2 /* Debug */ = {
+		1B0711A22599C9440009904E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLVMN3ZGJS;
 				INFOPLIST_FILE = enigmaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -515,11 +528,12 @@
 			};
 			name = Debug;
 		};
-		1BEF4BB025946B4400AAD4C2 /* Release */ = {
+		1B0711A32599C9440009904E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLVMN3ZGJS;
 				INFOPLIST_FILE = enigmaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -537,43 +551,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BEF4B7E25946B4000AAD4C2 /* Build configuration list for PBXProject "enigma" */ = {
+		1B0711712599C9410009904E /* Build configuration list for PBXProject "enigma" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BEF4BA625946B4400AAD4C2 /* Debug */,
-				1BEF4BA725946B4400AAD4C2 /* Release */,
+				1B0711992599C9440009904E /* Debug */,
+				1B07119A2599C9440009904E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BEF4BA825946B4400AAD4C2 /* Build configuration list for PBXNativeTarget "enigma" */ = {
+		1B07119B2599C9440009904E /* Build configuration list for PBXNativeTarget "enigma" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BEF4BA925946B4400AAD4C2 /* Debug */,
-				1BEF4BAA25946B4400AAD4C2 /* Release */,
+				1B07119C2599C9440009904E /* Debug */,
+				1B07119D2599C9440009904E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BEF4BAB25946B4400AAD4C2 /* Build configuration list for PBXNativeTarget "enigmaTests" */ = {
+		1B07119E2599C9440009904E /* Build configuration list for PBXNativeTarget "enigmaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BEF4BAC25946B4400AAD4C2 /* Debug */,
-				1BEF4BAD25946B4400AAD4C2 /* Release */,
+				1B07119F2599C9440009904E /* Debug */,
+				1B0711A02599C9440009904E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BEF4BAE25946B4400AAD4C2 /* Build configuration list for PBXNativeTarget "enigmaUITests" */ = {
+		1B0711A12599C9440009904E /* Build configuration list for PBXNativeTarget "enigmaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BEF4BAF25946B4400AAD4C2 /* Debug */,
-				1BEF4BB025946B4400AAD4C2 /* Release */,
+				1B0711A22599C9440009904E /* Debug */,
+				1B0711A32599C9440009904E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1BEF4B7B25946B4000AAD4C2 /* Project object */;
+	rootObject = 1B07116E2599C9410009904E /* Project object */;
 }

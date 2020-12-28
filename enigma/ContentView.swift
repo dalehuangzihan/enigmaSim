@@ -2,12 +2,13 @@
 //  ContentView.swift
 //  enigma
 //
-//  Created by Dale Huang on 24/12/20.
+//  Created by Dale Huang on 28/12/20.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         Text("Hello, world!")
             .padding()
