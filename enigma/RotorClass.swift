@@ -23,25 +23,19 @@ enum RotorError:Error {
 class Rotor {
     
     let rotorId:Int
-    //let rotorEncodingsDict:[Int:String]
     let rotorEncoding:String?
     var isValidRotor: Bool = false
     var counter:UInt = 0
     var advNext:Bool = false
 
-    init(rotorId:Int , encodingNo:Int) {
+    init(rotorId:Int , encodingNo:Int) throws {
         self.rotorId = rotorId
-        self.rotorEncoding = RotorEncodingsDict[encodingNo]
-    }
-    
-    func checkValidRotor() throws {
-        print("Rotor \(self.rotorId): ")
-        guard let encoding = self.rotorEncoding else {
+        
+        guard RotorEncodingsDict[encodingNo] != nil else {
             throw RotorError.invalidSelection(message: "Invalid encoding number selected")
         }
-        print("Has encoding \(encoding)")
+        self.rotorEncoding = RotorEncodingsDict[encodingNo]
     }
-    
 }
 
-var testRotor = Rotor(rotorId: 0, encodingNo: 1)
+
