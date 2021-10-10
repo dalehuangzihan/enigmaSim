@@ -13,6 +13,9 @@
 		1B0711812599C9440009904E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0711802599C9440009904E /* Preview Assets.xcassets */; };
 		1B07118C2599C9440009904E /* enigmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B07118B2599C9440009904E /* enigmaTests.swift */; };
 		1B0711972599C9440009904E /* enigmaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0711962599C9440009904E /* enigmaUITests.swift */; };
+		1B9AE60525A72B5400FEC205 /* ReflectorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9AE60425A72B5400FEC205 /* ReflectorClass.swift */; };
+		1B9AE60625A72B5400FEC205 /* ReflectorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9AE60425A72B5400FEC205 /* ReflectorClass.swift */; };
+		1B9AE60725A72B5400FEC205 /* ReflectorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9AE60425A72B5400FEC205 /* ReflectorClass.swift */; };
 		1BB7F4DA2599CE8C00E54FD5 /* RotorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7F4D92599CE8C00E54FD5 /* RotorClass.swift */; };
 		1BB7F4DB2599CE8C00E54FD5 /* RotorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7F4D92599CE8C00E54FD5 /* RotorClass.swift */; };
 		1BB7F4DC2599CE8C00E54FD5 /* RotorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7F4D92599CE8C00E54FD5 /* RotorClass.swift */; };
@@ -48,6 +51,7 @@
 		1B0711922599C9440009904E /* enigmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = enigmaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B0711962599C9440009904E /* enigmaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enigmaUITests.swift; sourceTree = "<group>"; };
 		1B0711982599C9440009904E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9AE60425A72B5400FEC205 /* ReflectorClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectorClass.swift; sourceTree = "<group>"; };
 		1BB7F4D92599CE8C00E54FD5 /* RotorClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotorClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,12 +103,12 @@
 		1B0711782599C9410009904E /* enigma */ = {
 			isa = PBXGroup;
 			children = (
+				1B9AE60325A72B0500FEC205 /* components */,
 				1B0711792599C9410009904E /* enigmaApp.swift */,
 				1B07117B2599C9410009904E /* ContentView.swift */,
 				1B07117D2599C9440009904E /* Assets.xcassets */,
 				1B0711822599C9440009904E /* Info.plist */,
 				1B07117F2599C9440009904E /* Preview Content */,
-				1BB7F4D92599CE8C00E54FD5 /* RotorClass.swift */,
 			);
 			path = enigma;
 			sourceTree = "<group>";
@@ -133,6 +137,15 @@
 				1B0711982599C9440009904E /* Info.plist */,
 			);
 			path = enigmaUITests;
+			sourceTree = "<group>";
+		};
+		1B9AE60325A72B0500FEC205 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				1BB7F4D92599CE8C00E54FD5 /* RotorClass.swift */,
+				1B9AE60425A72B5400FEC205 /* ReflectorClass.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 				1BB7F4DA2599CE8C00E54FD5 /* RotorClass.swift in Sources */,
 				1B07117C2599C9410009904E /* ContentView.swift in Sources */,
 				1B07117A2599C9410009904E /* enigmaApp.swift in Sources */,
+				1B9AE60525A72B5400FEC205 /* ReflectorClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BB7F4DB2599CE8C00E54FD5 /* RotorClass.swift in Sources */,
+				1B9AE60625A72B5400FEC205 /* ReflectorClass.swift in Sources */,
 				1B07118C2599C9440009904E /* enigmaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BB7F4DC2599CE8C00E54FD5 /* RotorClass.swift in Sources */,
+				1B9AE60725A72B5400FEC205 /* ReflectorClass.swift in Sources */,
 				1B0711972599C9440009904E /* enigmaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
